@@ -9,7 +9,7 @@ class A:
         print(self.a)
 
 class B(A):
-    def __init__(self):
+    def __init__(self): # overload
         super().__init__()
         self.b = "B"
     
